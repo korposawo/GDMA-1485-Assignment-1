@@ -99,7 +99,7 @@ a {
 	margin-left: 100px;
 }
 
-.col, h2, h3, .bg-green p, header div:last-child{
+.col, h2, #bg-green p, header div:last-child, #features h2{
 	text-align: center;
 }
 
@@ -107,30 +107,31 @@ a {
 7.0 - Color
 -------------------------------------------------------------- */
 
-.bg-darkgreen{
+#bg-darkgreen{
 	background-color: #10443f;
 }
 
-.bg-green{
+#bg-green{
 	background-color: #104f41;
 	padding: 20px 0;
-	padding-top: 360px;
+	padding-top: 300px;
+	padding-bottom: 150px;
 }
 
-.bg-gray{
+#bg-gray{
 	background-color: #f4f7f9;
 	padding: 20px 0;
 	padding-bottom: 150px;
 }
 
-.bg-turquoise{
+#bg-turquoise{
 	background-color: #1ea78d;
 	border-top: 4px solid;
 	border-top-color: #062033;
 	padding: 50px 0;
 }
 
-.bg-green p, nav a, h1, h4, footer p{
+.bg-green p, nav a, h1, h4, footer p, #bg-green p{
 	color: #fff;
 	
 }
@@ -138,9 +139,13 @@ a {
 	padding: 30px 0;
 	padding-bottom: 180px;
 }
+#bg-green span{
+	color: #1ea78d;
+}
 
-
-
+/*--------------------------------------------------------------
+7.0 - Utilities
+-------------------------------------------------------------- */
 
 nav a{
 	font-size: 13px;
@@ -150,7 +155,7 @@ nav a:hover{
 	color: #1ea78d;
 }
 
-h1 p, h4{
+h1, h4{
 	font-family: 'Pacifico', cursive;
 	font-size: 28px;
 }
@@ -159,27 +164,60 @@ h2 {
 	color: #0eb493;
 	text-transform: uppercase;
 	font-weight: 900;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
+
 #tag-line{
 	font-weight: 100;
 	font-size: 12px;
 	color: #587c79;
 	margin-left: 50px;
 }
+
 .col-1-3 p{
 	font-size: 13px;
 	color: #717982;
 	line-height: 20px;
 }
 
-.bg-green p{
-	font-size: 62px;
-}
-.para{
-	font-size: 48px;
-	font-weight: 100px;
-}
-.bg-green div:last-child p{
+#bg-green div:last-child p{
 	font-size: 18px;
 }
 
+#bg-green div:first-child p{
+	font-size: 68px;
+}
+
+#bg-green p:last-child span{
+	display: inline-block;
+	width: 30px;
+	background-color: #1ea78d;
+	height: 2px;
+	margin-bottom: 5px;
+}
+
+#bg-green div p:last-child{
+	font-size: 18px;
+	margin-top: -50px;
+}
+
+#bg-green div p:first-child{
+	font-weight: 100;
+}
+
+b{
+	font-weight: 700;
+}
+
+h2{
+	border-bottom: 1px solid #dce1e5;
+	display: inline-block;
+    padding: 30px;
+	width: 180px;
+}
+
+
+#bg-green div p{
+	margin-top: 10px;
+}
